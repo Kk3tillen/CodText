@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CodText</title>
+</head>
+<body>
+    <h1>CodText</h1>
+    <main>
+        <form action="">
+            <textarea id="texto-digitado" rows="4" cols="50" placeholder="Digite seu texto aqui..."></textarea>
+            <div id="botoes">
+                <input type="button" onclick="criptarTexto()" value="criptografar">
+                <input type="button" onclick="descriptografar()" value="descriptografar">
+            </div>
+        </form>
+        <div id="container-text">
+            <div id="textos">
+                <p id="texto-criptado"></p>
+                <img src="procurando.svg" id="img" alt="">
+                <h2 id="texto1">Nenhuma mensagem encontrada</h2>
+                <p id="texto2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p>by Kezitta ♡</p>
+        </div>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>

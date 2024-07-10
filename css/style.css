@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #dde9f0;
+    padding: 25px;
+    min-height: 80vh;
+}
+
+body {
+    background-color: #e5e5e5;
+}
+
+#texto-digitado {
+    padding: 10px;
+    width: 100%;
+    background-color: transparent; 
+    border: none; 
+    resize: none; 
+    width: 100%;
+    height: 100px; 
+    padding: 10px; 
+    font-size: 16px; 
+    color: #30314f; 
+}
+#texto-digitado:focus{
+    outline: none;
+}
+#texto-digitado::placeholder {
+    font-size: 25px;
+}
+
+form {
+    width: 40%; 
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; 
+    justify-content: space-between;
+}
+
+input {
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    background-color: #191b45;
+    width: 200px;
+}
+
+#botoes {
+    padding: 20px;
+}
+#textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#container-text {
+    text-align: center;
+    border-radius: 15px;
+    height: 90% ;
+    background-color: white;
+    margin: 20px;
+    margin-top: 0;
+    margin-bottom: 0px; 
+    padding: 30px;
+    min-height: 70vh;
+    padding-top: 100px;
+    max-width: 30vw;
+    min-width: 30vw;
+    color: #191b45;
+}
+h2 {
+    font-size: 18px;
+}
+
+h1 {
+    padding: 20px;
+    background-color: #dde9f0;
+    color: rgb(48, 48, 94);
+}
+footer{
+    height: 50px !important;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: #191b45;
+    color: white;
+}
