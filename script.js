@@ -4,7 +4,7 @@ let conteudo3 = document.getElementById('texto2');
 let textoCriptado = document.getElementById('texto-criptado');
 
 const codigoCripto = [
-    { caracter: 'a', sequencia: 'ai' },
+    { caracter: 'a', sequencia: 'awl' },
     { caracter: 'e', sequencia: 'enter' },
     { caracter: 'i', sequencia: 'imes' },
     { caracter: 'o', sequencia: 'ober' },
